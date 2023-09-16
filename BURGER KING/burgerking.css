@@ -1,0 +1,255 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@700&family=Poppins&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    display: flex;
+    height: 11vh;
+}
+.logo{
+    height: 12vh;
+    width: 7vw;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+.heading{
+    margin-top: -4.5vw;
+    margin-left: -55vw;
+    font-family: 'Chivo Mono', monospace;
+    color: grey;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.hover_links{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: grey;
+    margin-left: 20px;
+}
+
+.hover_links:hover{
+    cursor: pointer;
+    color: black;
+    transition: ease-out;
+}
+
+.heading:hover{
+    cursor: pointer;
+    color: black;
+    transition: ease-out;
+    transition-duration: 0.2s;
+}
+
+.bar{
+    margin-left: -14vw;
+    border-radius: 12px;
+    color: black;
+    height: 33px;
+    background-color: whitesmoke;
+    font-size: 12px;
+    width: 300px;
+    border-style: hidden;
+}
+
+.bar:hover{
+    transition: ease-out;
+    background-color: aqua;
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+    justify-content: end;
+}
+.flex_links{
+    display: flex;
+    align-items: center;
+    margin-top: -1.9vw;
+    margin-left: 46vw;
+    font-size: 14px;
+    font-family: 'Chivo Mono', monospace;
+}
+
+ul{
+    justify-content: end;
+}
+
+
+.search{
+    margin-right: 15px;
+}
+
+
+.main{
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    margin-right: 42px;
+    margin: 0px;
+    padding: 0px;
+}
+h2{
+    font-family: 'Bree Serif', serif;
+    font-weight: bolder;
+    margin-left: 80px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.images{
+    display: flex;
+    margin-top: 22px;
+    justify-content: space-between;
+}
+
+p{
+    float: right;
+    color: rgb(103, 69, 6);
+    font-weight: bolder;
+    font-family: Poppins;
+}
+
+
+.features-area {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.features-card{
+    color: white;
+    border-style: hidden;
+    margin: 12px;
+    width: 122px;
+    height: 122px;
+    background-color: white;
+}
+
+.features-card:hover{
+    cursor: pointer;
+    transition: ease-out;
+    transform-style: preserve-3d;
+    transition-delay: 0.8s;
+    
+}
+.secondary-button{
+    text-decoration: none;
+    font-family: Poppins;
+    color: rgb(76, 71, 71);
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+
+.king-deals{
+    margin-left: 52px;
+    margin-top: 32px;
+}
+
+h1{
+    text-transform: uppercase;
+    font-family: 'Bree Serif', serif;
+    letter-spacing: 0.05px;
+}
+
+.deals{
+    height: 25vh;
+    width: 22vw;
+    font-weight: bolder;
+}
+
+.deals:hover{
+    cursor: pointer;
+}
+
+
+.favourites{
+    height: 110vh;
+    width: 100%;
+    margin-left: 52px;
+    margin-top: 32px;
+    justify-content: space-between;
+}
+
+
+.fav{
+    cursor: pointer;
+    height: 25vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;    
+}
+
+
+.footer{
+    height: 61vh;
+    background-color: #121212;
+}
+
+
+.content{
+    margin-left: 32px;
+    color: white;
+    font-family: Poppins;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+h3{
+    font-weight: bolder;
+}
+
+.app{
+    height: 5vh;
+    width: 8vw;
+    cursor: pointer;
+}
+
+.info, .contact, .bk-cares, .legal, .appdown{
+    margin-top: 30px;
+}
+
+.appdown{
+    margin-right: 15px;
+}
+
+.content li{
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+
+.burger{
+    height: 8vh;
+    width: 8vh;
+}
+
+.main-footer{
+    margin-left: 32px;
+    margin-top: 12px;
+}
+
+h6{
+    color: white;
+    font-family: Poppins;
+    letter-spacing: 0.01px;
+    text-align: center;
+}
+
+.social-media{
+    float: right;
+    margin-top: -60px;
+    margin-right: 20px;
+}
